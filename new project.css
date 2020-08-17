@@ -1,0 +1,47 @@
+body{
+
+background: #333 !important;
+color:white !important;
+
+}
+.navbar{
+
+	border-bottom: 2px solid #008ed6
+}
+.home-section{
+
+background: url('slide_01.jpg');
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+.dark-overly{
+
+background: rgba(0,0,0,0.7);
+
+}
+.card-form{
+
+opacity: 0.6;
+
+}
+.home-inner{
+padding-top: 150px;
+padding-bottom: 50px;
+
+
+}
+@media(max-width: 768px){
+
+.home-section h3{
+
+
+font-size: 35px;
+
+}
+
+
+
+}
